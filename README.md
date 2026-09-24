@@ -1,4 +1,4 @@
-
+[README.md](https://github.com/user-attachments/files/32594756/README.md)
 <!-- ===================== HEADER ===================== -->
 <p align="center">
   <a href="https://www.zenqor.com.my">
@@ -121,8 +121,14 @@ We do not just write code; we engineer solutions that address genuine technical 
 
 <p align="center">
   <a href="https://github.com/zenq0r/zenqor-web">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=zenq0r&repo=zenqor-web&theme=tokyonight&hide_border=true" alt="zenqor-web" />
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1F6FEB,100:32CD32&height=90&text=zenqor-web&fontSize=34&fontColor=ffffff&fontAlign=50&fontAlignY=55&animation=fadeIn" width="420" alt="zenqor-web" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/zenq0r/zenqor-web"><img src="https://img.shields.io/github/languages/top/zenq0r/zenqor-web?style=for-the-badge&color=1F6FEB" alt="Top Language" /></a>
+  <a href="https://github.com/zenq0r/zenqor-web/commits"><img src="https://img.shields.io/github/last-commit/zenq0r/zenqor-web?style=for-the-badge&color=32CD32" alt="Last Commit" /></a>
+  <a href="https://www.zenqor.com.my"><img src="https://img.shields.io/badge/Live-zenqor.com.my-0D1117?style=for-the-badge&logo=googlechrome&logoColor=32CD32" alt="Live" /></a>
 </p>
 
 <p align="center"><sub>Official corporate website for Zenqor Technologies — live at <a href="https://www.zenqor.com.my">www.zenqor.com.my</a></sub></p>
@@ -133,7 +139,11 @@ We do not just write code; we engineer solutions that address genuine technical 
 ![Activity Graph](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&vCenter=true&width=600&repeat=false&lines=%3E_+Activity+Graph)
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=zenq0r&theme=tokyonight&area=true&hide_border=true" alt="Activity Graph" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zenq0r&theme=tokyonight" width="100%" alt="Activity Graph" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/1F6FEB/zenq0r" width="100%" alt="Contribution Chart" />
 </p>
 
 <p align="center">
