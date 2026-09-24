@@ -1,1 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" role="img" aria-label="zenqor-web — Official corporate website of Zenqor Technologies">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0F1B2D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#2EA043"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="818" height="218" rx="14"/></clipPath>
+    <style>
+      .t  { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; }
+      .k  { font-family: 'Segoe UI', Inter, Helvetica, Arial, sans-serif; font-size: 11px; letter-spacing: 2.4px; fill: #7D8FA9; font-weight: 600; }
+      .h  { font-size: 30px; font-weight: 700; fill: #F0F6FC; }
+      .d  { font-size: 15px; fill: #A9B7C9; }
+      .m  { font-size: 13px; fill: #C9D4E3; }
+      .l  { font-size: 13px; fill: #58A6FF; font-weight: 600; }
+      .fade { opacity: 0; animation: in 0.9s ease-out forwards; }
+      .f2 { animation-delay: 0.15s; } .f3 { animation-delay: 0.3s; } .f4 { animation-delay: 0.45s; }
+      @keyframes in { from { opacity: 0; } to { opacity: 1; } }
+      .sweep { animation: sweep 6s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(-820px); } 60%,100% { transform: translateX(820px); } }
+      .pulse { animation: pulse 2s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+    </style>
+  </defs>
 
+  <g clip-path="url(#card)">
+    <rect width="820" height="220" fill="url(#bg)"/>
+    <!-- subtle grid -->
+    <g stroke="#FFFFFF" stroke-opacity="0.025">
+      <path d="M0 55H820M0 110H820M0 165H820"/>
+      <path d="M205 0V220M410 0V220M615 0V220"/>
+    </g>
+    <rect class="sweep" width="820" height="220" fill="url(#shine)"/>
+    <rect width="820" height="4" fill="url(#accent)"/>
+  </g>
+  <rect x="1" y="1" width="818" height="218" rx="14" fill="none" stroke="#1F2A3C" stroke-width="1.5"/>
+
+  <!-- left: logo mark -->
+  <g class="fade" transform="translate(40 58)">
+    <rect width="72" height="72" rx="16" fill="url(#accent)"/>
+    <text x="36" y="49" text-anchor="middle" class="t" font-size="38" font-weight="800" fill="#FFFFFF">Z</text>
+  </g>
+
+  <!-- main text -->
+  <g class="t">
+    <text x="136" y="62" class="k fade">FEATURED PROJECT  ·  PUBLIC REPOSITORY</text>
+    <text x="136" y="100" class="h fade f2">zenqor-web</text>
+    <text x="136" y="128" class="d fade f3">Official corporate website of Zenqor Technologies — consulting,</text>
+    <text x="136" y="148" class="d fade f3">licensing, compliance and digital systems for Malaysian businesses.</text>
+  </g>
+
+  <!-- meta row -->
+  <g class="t fade f4" transform="translate(136 184)">
+    <circle cx="6" cy="-4" r="6" fill="#E34C26"/>
+    <text x="18" y="0" class="m">HTML</text>
+
+    <circle cx="84" cy="-4" r="4" fill="#2EA043" class="pulse"/>
+    <text x="96" y="0" class="m">Live in production</text>
+
+    <text x="228" y="0" class="m" style="fill:#3D4B60">|</text>
+    <text x="246" y="0" class="l">www.zenqor.com.my  →</text>
+  </g>
+
+  <!-- right: status pill -->
+  <g class="t fade f2" transform="translate(646 44)">
+    <rect width="138" height="28" rx="14" fill="#0D2A1A" stroke="#2EA043" stroke-opacity="0.55"/>
+    <circle cx="18" cy="14" r="4" fill="#2EA043" class="pulse"/>
+    <text x="30" y="18.5" font-size="11" font-weight="700" letter-spacing="1.6" fill="#56D364">OPERATIONAL</text>
+  </g>
+</svg>
