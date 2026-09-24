@@ -1,3 +1,4 @@
+<img width="820" height="220" alt="zenqor-web-card" src="https://github.com/user-attachments/assets/a7801bc8-c924-4541-a03a-6b4ab5853562" />
 [README.md](https://github.com/user-attachments/files/32595032/README.md)
 <!-- ===================== HEADER ===================== -->
 <p align="center">
